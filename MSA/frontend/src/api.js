@@ -1,7 +1,4 @@
-// Dynamically set API base URL
-const BASE = typeof window !== 'undefined' && window.location.hostname === 'localhost'
-  ? 'http://localhost:5000/api'
-  : '/api';
+const BASE = 'http://localhost:5000/api';
 
 async function req(method, path, body) {
     const opts = { method, headers: { 'Content-Type': 'application/json' } };
