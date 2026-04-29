@@ -2,25 +2,14 @@
   "buildCommand": "cd MSA && npm install && cd frontend && npm install && npm run build",
   "outputDirectory": "MSA/frontend/dist",
   "installCommand": "npm install --prefix MSA && npm install --prefix MSA/frontend",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api"
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
     },
     {
-      "source": "/(.*)",
-      "destination": "/MSA/frontend/dist/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/MSA/frontend/dist/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600"
-        }
-      ]
+      "src": "/(.*)",
+      "dest": "/MSA/frontend/dist/index.html"
     }
   ]
 }

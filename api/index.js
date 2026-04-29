@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 // Import routes
 const routes = require('../MSA/src/routes');
 
-// API Routes
+// API Routes - Vercel strips /api prefix when routing to serverless function
 app.use(routes);
 
 // Health Check
@@ -29,10 +29,9 @@ app.get('/', (req, res) => {
   });
 });
 
-// Error handling
-app.use((err, req, res, next) => {
-  console.error(err);
-  res.status(500).json({ error: 'Internal server error' });
+// 404 handler
+app.use((req, res) => {
+  res.status(404).json({ error: 'Not found' });
 });
 
 module.exports = serverless(app);
