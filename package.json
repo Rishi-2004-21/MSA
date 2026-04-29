@@ -1,0 +1,17 @@
+{
+  "name": "msa-render",
+  "version": "1.0.0",
+  "description": "Multi-Agent Sales Automation",
+  "main": "MSA/server.js",
+  "scripts": {
+    "build": "cd MSA && npm install && cd frontend && npm install && npm run build && cd ../..",
+    "start": "cd MSA && node server.js",
+    "dev": "cd MSA && npm run dev"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
