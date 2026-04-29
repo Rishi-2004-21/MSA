@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
+const serverless = require('serverless-http');
 
 dotenv.config({ path: path.join(__dirname, '../MSA/.env') });
 
@@ -15,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 const routes = require('../MSA/src/routes');
 
 // API Routes
-app.use('/api', routes);
+app.use(routes);
 
 // Health Check
 app.get('/', (req, res) => {
@@ -34,4 +35,4 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Internal server error' });
 });
 
-module.exports = app;
+module.exports = serverless(app);
