@@ -17,11 +17,14 @@ app.use(express.urlencoded({ extended: true }));
 // Serve uploaded files
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Serve frontend build files
+app.use(express.static(path.join(__dirname, 'frontend/dist')));
+
 // API Routes
 app.use('/api', routes);
 
-// Health Check
-app.get('/', (req, res) => {
+// Health Check API
+app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
     service: 'MSA Agent — Ushnik Technologies',
@@ -29,6 +32,11 @@ app.get('/', (req, res) => {
     timestamp: new Date().toISOString(),
     ai: process.env.OPENAI_API_KEY ? 'enabled' : 'mock-mode',
   });
+});
+
+// Serve React frontend for all other routes (SPA fallback)
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
 });
 
 app.listen(PORT, () => {
