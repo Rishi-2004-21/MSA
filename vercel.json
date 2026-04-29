@@ -1,0 +1,28 @@
+{
+  "buildCommand": "cd MSA && npm install && cd frontend && npm install && npm run build",
+  "outputDirectory": "MSA/frontend/dist",
+  "installCommand": "npm install --prefix MSA && npm install --prefix MSA/frontend",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/MSA/frontend/dist/index.html"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": "@OPENAI_API_KEY",
+    "SMTP_HOST": "@SMTP_HOST",
+    "SMTP_PORT": "@SMTP_PORT",
+    "SMTP_USER": "@SMTP_USER",
+    "SMTP_PASSWORD": "@SMTP_PASSWORD"
+  },
+  "functions": {
+    "api/index.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}

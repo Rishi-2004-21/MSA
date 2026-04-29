@@ -1,0 +1,23 @@
+{
+  "name": "msa-deployment",
+  "version": "1.0.0",
+  "description": "Multi-Agent Sales Automation - Full Stack Deployment",
+  "private": true,
+  "scripts": {
+    "build": "cd MSA && npm install && cd frontend && npm install && npm run build",
+    "start": "node MSA/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "marked": "^18.0.2",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.5",
+    "openai": "^6.34.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
