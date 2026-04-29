@@ -1,8 +1,0 @@
-node_modules
-.git
-MSA/node_modules
-MSA/frontend/node_modules
-MSA/uploads
-.env
-.env.local
-*.log
