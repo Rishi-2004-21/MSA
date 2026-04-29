@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "mo0carvkkycka",
+    "createdAt": "2026-04-15T17:44:04.256Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to aenugupranathi@gmail.com. ID: mock-1776275044239",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mo0carw0dobf9",
+    "createdAt": "2026-04-15T17:44:04.272Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to aenugu950@gmail.com. ID: mock-1776275044260",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mo0carwbhq19m",
+    "createdAt": "2026-04-15T17:44:04.283Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to spandhanreddy71@gmail.com. ID: mock-1776275044273",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mo0carwm4g1d8",
+    "createdAt": "2026-04-15T17:44:04.294Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to 105snehareddy@gmail.com. ID: mock-1776275044286",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cbmzuh8udi",
+    "createdAt": "2026-04-15T17:44:44.586Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cczymslz22",
+    "createdAt": "2026-04-15T17:45:48.047Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cnem6hj7ku",
+    "createdAt": "2026-04-15T17:53:53.598Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cnfhyol3ky",
+    "createdAt": "2026-04-15T17:53:54.742Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cpb0wb9iyg",
+    "createdAt": "2026-04-15T17:55:22.256Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cwq92nzx5v",
+    "createdAt": "2026-04-15T18:01:08.582Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0cz1ca8g9ic",
+    "createdAt": "2026-04-15T18:02:56.266Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0d34is55k5o",
+    "createdAt": "2026-04-15T18:06:07.012Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0d5ppftl6qf",
+    "createdAt": "2026-04-15T18:08:07.779Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0d8vtx8mror",
+    "createdAt": "2026-04-15T18:10:35.685Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Kolanu Sneha Reddy, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0d8z9glookt",
+    "createdAt": "2026-04-15T18:10:40.132Z",
+    "type": "email_sent",
+    "content": "Manual AI response sent to 105snehareddy@gmail.com.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0dqgq6hr9gf",
+    "createdAt": "2026-04-15T18:24:15.918Z",
+    "type": "note",
+    "content": "Duplicate lead detected from excel.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mo0dqgqfuyebe",
+    "createdAt": "2026-04-15T18:24:15.927Z",
+    "type": "note",
+    "content": "Duplicate lead detected from excel.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mo0dqgqk1i6tx",
+    "createdAt": "2026-04-15T18:24:15.932Z",
+    "type": "note",
+    "content": "Duplicate lead detected from excel.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mo0dqgqnlukb7",
+    "createdAt": "2026-04-15T18:24:15.935Z",
+    "type": "note",
+    "content": "Duplicate lead detected from excel.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0drnm34ku6h",
+    "createdAt": "2026-04-15T18:25:11.499Z",
+    "type": "note",
+    "content": "Status updated to: Engaged",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0drqu4q519q",
+    "createdAt": "2026-04-15T18:25:15.676Z",
+    "type": "note",
+    "content": "Status updated to: Forwarded",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0drt6sfyr03",
+    "createdAt": "2026-04-15T18:25:18.724Z",
+    "type": "note",
+    "content": "Status updated to: Engaged",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0dru396y2bx",
+    "createdAt": "2026-04-15T18:25:19.893Z",
+    "type": "note",
+    "content": "Status updated to: Captured",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo0du3th13vj3",
+    "createdAt": "2026-04-15T18:27:05.813Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to kolanusnehareddy22@ifheindia.org. ID: <6878b3ff-c7b7-142b-4dd3-f25341a6a308@gmail.com>",
+    "leadId": "mo0du0i4d6srn"
+  },
+  {
+    "id": "mo113prdn8fh9",
+    "createdAt": "2026-04-16T05:18:25.321Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to knikhil22@ifheindia.org. ID: <5e1f48b2-eec0-02b0-8474-05b1fda2d0f1@gmail.com>",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mo11mgebwb9l9",
+    "createdAt": "2026-04-16T05:32:59.651Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mo11mgf369osz",
+    "createdAt": "2026-04-16T05:32:59.679Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mo11mgfbq1jtq",
+    "createdAt": "2026-04-16T05:32:59.687Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mo11mgfgznbdx",
+    "createdAt": "2026-04-16T05:32:59.692Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo11mliw5uqrw",
+    "createdAt": "2026-04-16T05:33:06.296Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to aenugupranathi@gmail.com. ID: <d1a4c698-ad8c-c71b-e819-baf7edd4bf20@gmail.com>",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mo11mo0swrfui",
+    "createdAt": "2026-04-16T05:33:09.532Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to spandhanreddy71@gmail.com. ID: <e6f88691-841f-a847-a5ac-5ba6c9ff1bd9@gmail.com>",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mo11mo79c5bqr",
+    "createdAt": "2026-04-16T05:33:09.765Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to aenugu950@gmail.com. ID: <63576645-b7e2-d4de-b72a-b416be15b90b@gmail.com>",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mo11mpaoptbq1",
+    "createdAt": "2026-04-16T05:33:11.184Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to 105snehareddy@gmail.com. ID: <3bd1422f-eddc-0f0a-bd07-d8d3419561f0@gmail.com>",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo11mpue7aah5",
+    "createdAt": "2026-04-16T05:33:11.894Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to kodavallanikhil@gmail.com. ID: <053044da-fada-41a7-0ab6-146f4903a209@gmail.com>",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mo128kn5tcx9o",
+    "createdAt": "2026-04-16T05:50:11.585Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mo128n855qxc4",
+    "createdAt": "2026-04-16T05:50:14.933Z",
+    "type": "meeting_scheduled",
+    "content": "Meeting link set: https://calendly.com/ushnik-tech?name=nikhil&email=knikhil22%40ifheindia.org",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mo12jrqrm8sk5",
+    "createdAt": "2026-04-16T05:58:54.003Z",
+    "type": "note",
+    "content": "Status updated to: Engaged",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mo12jt7pz4bbn",
+    "createdAt": "2026-04-16T05:58:55.909Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mo12ni7homy7d",
+    "createdAt": "2026-04-16T06:01:48.270Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <af657f9e-cb9c-8858-87f7-b88565d30b65@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo12nj3d6ym4l",
+    "createdAt": "2026-04-16T06:01:49.417Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo12nw0b7pkhg",
+    "createdAt": "2026-04-16T06:02:06.155Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo12o83vnaoun",
+    "createdAt": "2026-04-16T06:02:21.835Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Rishi, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo12ob9ygu0na",
+    "createdAt": "2026-04-16T06:02:25.942Z",
+    "type": "email_sent",
+    "content": "Manual AI response sent to rishienjamuri@gmail.com.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo2wbl3j1u9nv",
+    "createdAt": "2026-04-17T12:40:06.799Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo2wbl3sctbha",
+    "createdAt": "2026-04-17T12:40:06.808Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mo2wbl3y1ie1f",
+    "createdAt": "2026-04-17T12:40:06.814Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mo2wbl507653h",
+    "createdAt": "2026-04-17T12:40:06.852Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo0du0i4d6srn"
+  },
+  {
+    "id": "mo2wbl57iw9j4",
+    "createdAt": "2026-04-17T12:40:06.859Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo2wbl5fvzbzl",
+    "createdAt": "2026-04-17T12:40:06.867Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mo2wbl5qttqiu",
+    "createdAt": "2026-04-17T12:40:06.878Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mo2wbl5v3spet",
+    "createdAt": "2026-04-17T12:40:06.883Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mo3szfhctxfah",
+    "createdAt": "2026-04-18T03:54:26.976Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from website. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo3szjk44arrp",
+    "createdAt": "2026-04-18T03:54:32.260Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <593b26f8-25d0-e1d6-6ba7-c8b27a4fa490@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo3szn2vh0vgm",
+    "createdAt": "2026-04-18T03:54:36.823Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from website. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo3szpklp0icg",
+    "createdAt": "2026-04-18T03:54:40.053Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <642e40e8-deed-a631-b1bf-e748b7fea935@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo3t4dskhh4jq",
+    "createdAt": "2026-04-18T03:58:18.068Z",
+    "type": "proposal_sent",
+    "content": "Proposal emailed to rishienjamuri@gmail.com.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo3t4r0bv5pw0",
+    "createdAt": "2026-04-18T03:58:35.195Z",
+    "type": "meeting_scheduled",
+    "content": "Meeting link set: https://calendly.com/ushnik-tech?name=Rishi&email=rishienjamuri%40gmail.com",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo3t59kq77gq2",
+    "createdAt": "2026-04-18T03:58:59.258Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74ijaapbxrb",
+    "createdAt": "2026-04-20T11:40:32.674Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74ilu31842t",
+    "createdAt": "2026-04-20T11:40:35.979Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mo74ip3k7nn4w",
+    "createdAt": "2026-04-20T11:40:40.208Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mo74irfjdpxu8",
+    "createdAt": "2026-04-20T11:40:43.231Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo0du0i4d6srn"
+  },
+  {
+    "id": "mo74its01br6t",
+    "createdAt": "2026-04-20T11:40:46.272Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mo74ix0rtdgyf",
+    "createdAt": "2026-04-20T11:40:50.475Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mo74j0i6xyl9t",
+    "createdAt": "2026-04-20T11:40:54.990Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mo74j2v98swhr",
+    "createdAt": "2026-04-20T11:40:58.053Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mo74r1anff534",
+    "createdAt": "2026-04-20T11:47:09.263Z",
+    "type": "note",
+    "content": "Re-engaged via chat (web).",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74rcnhd5fou",
+    "createdAt": "2026-04-20T11:47:23.981Z",
+    "type": "note",
+    "content": "[Chat] User: 📅 Book a meeting",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74rqo6j3ez5",
+    "createdAt": "2026-04-20T11:47:42.150Z",
+    "type": "site_visit_scheduled",
+    "content": "Site visit scheduled: Tuesday at any time — Raj K. (Central Zone)",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74rqobgv0z1",
+    "createdAt": "2026-04-20T11:47:42.155Z",
+    "type": "note",
+    "content": "CRM Agent: Lead status updated to Engaged after site visit scheduling.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74rqoekqxva",
+    "createdAt": "2026-04-20T11:47:42.158Z",
+    "type": "note",
+    "content": "Post-Sales Agent: Welcome onboarding message sent.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74sv04yapyi",
+    "createdAt": "2026-04-20T11:48:34.420Z",
+    "type": "reminder_sent",
+    "content": "Site visit reminder sent for Tuesday",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74ywogw98pl",
+    "createdAt": "2026-04-20T11:53:16.528Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from other. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74z0f93jsw2",
+    "createdAt": "2026-04-20T11:53:21.381Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <273ae2db-3ef8-4c52-e4ad-c3601cdfa91d@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo74z8x0oa42g",
+    "createdAt": "2026-04-20T11:53:32.388Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishikeshe6@gmail.com. ID: <890d38bf-59c9-9cba-d23c-4873fd3f0436@gmail.com>",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mo74zfv72nd1k",
+    "createdAt": "2026-04-20T11:53:41.395Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mo75nzsxxdbuh",
+    "createdAt": "2026-04-20T12:12:46.977Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mo75o7bfdxj60",
+    "createdAt": "2026-04-20T12:12:56.715Z",
+    "type": "documents_generated",
+    "content": "Sale Agreement and Booking Form generated.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mo83zqd0s9b3h",
+    "createdAt": "2026-04-21T04:13:41.556Z",
+    "type": "site_visit_scheduled",
+    "content": "Site visit synced. Rep: Rep A (Central Zone), Time: 2026-04-22 14:00",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mo8406wmovk9y",
+    "createdAt": "2026-04-21T04:14:02.999Z",
+    "type": "auto_reply_queued",
+    "content": "Hi Rishi, thank you for reaching out to Ushnik Technologies! Our team will contact you within 2 hours. Feel free to reply with any questions.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo8409k73qzvn",
+    "createdAt": "2026-04-21T04:14:06.439Z",
+    "type": "email_sent",
+    "content": "Manual AI response sent to rishienjamuri@gmail.com.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo841488bzjoo",
+    "createdAt": "2026-04-21T04:14:46.184Z",
+    "type": "note",
+    "content": "AI Proposal Draft generated.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo841i8gwsuje",
+    "createdAt": "2026-04-21T04:15:04.336Z",
+    "type": "meeting_scheduled",
+    "content": "Meeting link set: https://calendly.com/ushnik-tech?name=Rishi&email=rishienjamuri%40gmail.com",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo8449ewy0deg",
+    "createdAt": "2026-04-21T04:17:12.872Z",
+    "type": "proposal_sent",
+    "content": "Proposal emailed to rishienjamuri@gmail.com.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo8486pqtyqrr",
+    "createdAt": "2026-04-21T04:20:15.998Z",
+    "type": "meeting_scheduled",
+    "content": "Meeting link set: https://calendly.com/ushnik-tech?name=Rishi&email=rishienjamuri%40gmail.com",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo857qpombqa8",
+    "createdAt": "2026-04-21T04:47:54.876Z",
+    "type": "meeting_scheduled",
+    "content": "Meeting link set: https://calendly.com/ushnik-tech?name=Rishi&email=rishienjamuri%40gmail.com",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mo8kfbo23v3dr",
+    "createdAt": "2026-04-21T11:53:42.866Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mob6sslb07ih8",
+    "createdAt": "2026-04-23T07:55:35.231Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mob6sslmji1uo",
+    "createdAt": "2026-04-23T07:55:35.242Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mob6ssnjuaz96",
+    "createdAt": "2026-04-23T07:55:35.311Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mob6ssnrbna6h",
+    "createdAt": "2026-04-23T07:55:35.319Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0du0i4d6srn"
+  },
+  {
+    "id": "mob6sso1andk5",
+    "createdAt": "2026-04-23T07:55:35.329Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mob6ssoc6x22d",
+    "createdAt": "2026-04-23T07:55:35.340Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mob6ssp87i1jl",
+    "createdAt": "2026-04-23T07:55:35.372Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mob6sspgcjfrp",
+    "createdAt": "2026-04-23T07:55:35.380Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mob6sstm454w2",
+    "createdAt": "2026-04-23T07:55:35.530Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mob6ssv87e6c7",
+    "createdAt": "2026-04-23T07:55:35.588Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mob6ssvx07zt3",
+    "createdAt": "2026-04-23T07:55:35.613Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mob6ssz8ndetp",
+    "createdAt": "2026-04-23T07:55:35.732Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0du0i4d6srn"
+  },
+  {
+    "id": "mob6sszxfvp7p",
+    "createdAt": "2026-04-23T07:55:35.757Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mob6st0ncmmb6",
+    "createdAt": "2026-04-23T07:55:35.783Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mob6st1of6vi8",
+    "createdAt": "2026-04-23T07:55:35.820Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mob6st4ejic6m",
+    "createdAt": "2026-04-23T07:55:35.918Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mobftbomeuyqz",
+    "createdAt": "2026-04-23T12:07:56.518Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mobftbpixt9qs",
+    "createdAt": "2026-04-23T12:07:56.550Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mognyasfnp405",
+    "createdAt": "2026-04-27T03:54:36.447Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mognyec8l246a",
+    "createdAt": "2026-04-27T03:54:41.048Z",
+    "type": "follow_up",
+    "content": "Day 5 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mognygzop98iq",
+    "createdAt": "2026-04-27T03:54:44.484Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo11mgfpiiwbd"
+  },
+  {
+    "id": "mognykapv0j49",
+    "createdAt": "2026-04-27T03:54:48.769Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo113m1s36mp7"
+  },
+  {
+    "id": "mognympbsybr9",
+    "createdAt": "2026-04-27T03:54:51.887Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo0du0i4d6srn"
+  },
+  {
+    "id": "mognyqfwrqml8",
+    "createdAt": "2026-04-27T03:54:56.732Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo0carw43sc8m"
+  },
+  {
+    "id": "mognysvem9s0e",
+    "createdAt": "2026-04-27T03:54:59.882Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo0carvsudzsi"
+  },
+  {
+    "id": "mognyw4bg5kwj",
+    "createdAt": "2026-04-27T03:55:04.091Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo0carvdmqmni"
+  },
+  {
+    "id": "mognyye9azlbx",
+    "createdAt": "2026-04-27T03:55:07.041Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo0caruo3fwkt"
+  },
+  {
+    "id": "mogo6c1s6b67p",
+    "createdAt": "2026-04-27T04:00:51.328Z",
+    "type": "note",
+    "content": "Re-engaged via chat (web).",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo6fa5i4fs9",
+    "createdAt": "2026-04-27T04:00:55.517Z",
+    "type": "note",
+    "content": "[Chat] User: 📅 Book a meeting",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo6pl0pakq8",
+    "createdAt": "2026-04-27T04:01:08.868Z",
+    "type": "site_visit_scheduled",
+    "content": "Site visit scheduled: now at now — Raj K. (Central Zone)",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo6pl5g4i66",
+    "createdAt": "2026-04-27T04:01:08.873Z",
+    "type": "note",
+    "content": "CRM Agent: Lead status updated to Engaged after site visit scheduling.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo6pl8iwzt3",
+    "createdAt": "2026-04-27T04:01:08.876Z",
+    "type": "note",
+    "content": "Post-Sales Agent: Welcome onboarding message sent.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hfkua6q",
+    "createdAt": "2026-04-27T04:03:06.675Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hhshcn9",
+    "createdAt": "2026-04-27T04:03:06.677Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hjb197h",
+    "createdAt": "2026-04-27T04:03:06.679Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hn0ar5f",
+    "createdAt": "2026-04-27T04:03:06.683Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hr617sl",
+    "createdAt": "2026-04-27T04:03:06.687Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hv7dax0",
+    "createdAt": "2026-04-27T04:03:06.691Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98hygehbe",
+    "createdAt": "2026-04-27T04:03:06.694Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98i0376p1",
+    "createdAt": "2026-04-27T04:03:06.696Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98i2ixhvc",
+    "createdAt": "2026-04-27T04:03:06.698Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo98i5d0z49",
+    "createdAt": "2026-04-27T04:03:06.701Z",
+    "type": "note",
+    "content": "Duplicate lead inquiry from excel. Re-triggering welcome email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9aspk5kl1",
+    "createdAt": "2026-04-27T04:03:09.673Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <3470a0e1-11ef-9f19-12e3-e1012d256613@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9b0k6of0d",
+    "createdAt": "2026-04-27T04:03:09.956Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <efbcd561-58cb-8bc3-89cb-8496fcf4d9df@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9b5pamy8y",
+    "createdAt": "2026-04-27T04:03:10.141Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <21e664d3-fd6b-c465-f963-f9d4b84325cf@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9bd5sohwd",
+    "createdAt": "2026-04-27T04:03:10.409Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <d4e06663-9f0f-10fc-b50c-a9b0976a6d8a@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9c531yq0v",
+    "createdAt": "2026-04-27T04:03:11.415Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <5eec634d-457e-a218-5770-2a927ea571d0@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9ceuwhsaj",
+    "createdAt": "2026-04-27T04:03:11.766Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <a512cae4-dc53-7406-6c0d-52ddc2f9f435@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9d6nszgs3",
+    "createdAt": "2026-04-27T04:03:12.767Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <442b30f0-05e2-82d5-4823-c2f2dd51f685@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9deubf9au",
+    "createdAt": "2026-04-27T04:03:13.062Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <c853d813-9086-a1a9-e34e-48536f746ff3@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9dig4vroo",
+    "createdAt": "2026-04-27T04:03:13.192Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <2ecc97ce-d0bc-4438-d7dd-ded651fca2fa@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9dvj8vpez",
+    "createdAt": "2026-04-27T04:03:13.663Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rishienjamuri@gmail.com. ID: <4c0b2229-a2d4-1d35-d647-fbd037b2100f@gmail.com>",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mogo9u8rcdw6d",
+    "createdAt": "2026-04-27T04:03:34.875Z",
+    "type": "note",
+    "content": "🔥 HOT LEAD — Assigned to Sales. Immediate follow-up required.",
+    "leadId": "mogo9u8qav0gz"
+  },
+  {
+    "id": "mogo9x2bqi440",
+    "createdAt": "2026-04-27T04:03:38.531Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to neha.gupta@gmail.com. ID: mock",
+    "leadId": "mogo9u93v0fwf"
+  },
+  {
+    "id": "mogo9x2ni0mch",
+    "createdAt": "2026-04-27T04:03:38.543Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to anjali.sharma@gmail.com. ID: mock",
+    "leadId": "mogo9u8kge3qs"
+  },
+  {
+    "id": "mogo9x5ld7ie5",
+    "createdAt": "2026-04-27T04:03:38.649Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to vikram.singh@gmail.com. ID: mock",
+    "leadId": "mogo9u97wx9zo"
+  },
+  {
+    "id": "mogo9x5pv23cq",
+    "createdAt": "2026-04-27T04:03:38.653Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to arjun.verma@gmail.com. ID: mock",
+    "leadId": "mogo9u8up5rlp"
+  },
+  {
+    "id": "mogo9xuwpdso5",
+    "createdAt": "2026-04-27T04:03:39.560Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to priya.nair@gmail.com. ID: <f90590a4-acef-c69f-5610-e8d21d3d979c@gmail.com>",
+    "leadId": "mogo9u8xr8sms"
+  },
+  {
+    "id": "mogo9y44ximkv",
+    "createdAt": "2026-04-27T04:03:39.892Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rahul.das@gmail.com. ID: <40040439-dbf1-2b80-5b2e-13a22b9ddd04@gmail.com>",
+    "leadId": "mogo9u90maz0r"
+  },
+  {
+    "id": "mogo9zadcstse",
+    "createdAt": "2026-04-27T04:03:41.413Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to rohan.mehta@gmail.com. ID: <b00ed823-684b-34fb-09b9-d755f890f52a@gmail.com>",
+    "leadId": "mogo9u8ibwt69"
+  },
+  {
+    "id": "mogo9zhqc8g2z",
+    "createdAt": "2026-04-27T04:03:41.678Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to pooja.iyer@gmail.com. ID: <7c3d7988-6913-40af-930e-274e77defb0b@gmail.com>",
+    "leadId": "mogo9u9b2up7y"
+  },
+  {
+    "id": "mogoa05xl4ctc",
+    "createdAt": "2026-04-27T04:03:42.549Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to kiran.reddy@gmail.com. ID: <01e31b49-03d1-0ef2-0219-65957a1e5391@gmail.com>",
+    "leadId": "mogo9u8m2wbwc"
+  },
+  {
+    "id": "mogoa0rno7z3h",
+    "createdAt": "2026-04-27T04:03:43.331Z",
+    "type": "email_sent",
+    "content": "Auto-welcome email sent to sneha.patel@gmail.com. ID: <e7eb9b9e-8ef5-bbd8-404d-9b723e9856c6@gmail.com>",
+    "leadId": "mogo9u8qav0gz"
+  },
+  {
+    "id": "mogoanwf11cyu",
+    "createdAt": "2026-04-27T04:04:13.311Z",
+    "type": "meeting_scheduled",
+    "content": "Meeting link set: https://calendly.com/rishienjamuri/30min?name=Rishi&email=rishienjamuri%40gmail.com",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "moi3qe4xlqo59",
+    "createdAt": "2026-04-28T04:04:07.569Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u9b2up7y"
+  },
+  {
+    "id": "moi3qe6j2s8zr",
+    "createdAt": "2026-04-28T04:04:07.627Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u9b2up7y"
+  },
+  {
+    "id": "moi3qgledo37p",
+    "createdAt": "2026-04-28T04:04:10.754Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u97wx9zo"
+  },
+  {
+    "id": "moi3qgtiyizbn",
+    "createdAt": "2026-04-28T04:04:11.046Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u97wx9zo"
+  },
+  {
+    "id": "moi3qitf5r1i8",
+    "createdAt": "2026-04-28T04:04:13.635Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u93v0fwf"
+  },
+  {
+    "id": "moi3qk368ivr9",
+    "createdAt": "2026-04-28T04:04:15.282Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u93v0fwf"
+  },
+  {
+    "id": "moi3qlzsj4n4h",
+    "createdAt": "2026-04-28T04:04:17.752Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u90maz0r"
+  },
+  {
+    "id": "moi3qms0evnnz",
+    "createdAt": "2026-04-28T04:04:18.768Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u90maz0r"
+  },
+  {
+    "id": "moi3qocxtryge",
+    "createdAt": "2026-04-28T04:04:20.817Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8xr8sms"
+  },
+  {
+    "id": "moi3qp049h084",
+    "createdAt": "2026-04-28T04:04:21.652Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8xr8sms"
+  },
+  {
+    "id": "moi3qs2hojwmq",
+    "createdAt": "2026-04-28T04:04:25.625Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8up5rlp"
+  },
+  {
+    "id": "moi3qsdh2x9ut",
+    "createdAt": "2026-04-28T04:04:26.021Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8up5rlp"
+  },
+  {
+    "id": "moi3qui1nsrvt",
+    "createdAt": "2026-04-28T04:04:28.777Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8qav0gz"
+  },
+  {
+    "id": "moi3qvkg7je01",
+    "createdAt": "2026-04-28T04:04:30.160Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8qav0gz"
+  },
+  {
+    "id": "moi3qxvepxoos",
+    "createdAt": "2026-04-28T04:04:33.146Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8m2wbwc"
+  },
+  {
+    "id": "moi3qyrrjyfpz",
+    "createdAt": "2026-04-28T04:04:34.311Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8m2wbwc"
+  },
+  {
+    "id": "moi3r03ff1qk7",
+    "createdAt": "2026-04-28T04:04:36.027Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8kge3qs"
+  },
+  {
+    "id": "moi3r24x92wvq",
+    "createdAt": "2026-04-28T04:04:38.673Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8kge3qs"
+  },
+  {
+    "id": "moi3r2ia2e4gb",
+    "createdAt": "2026-04-28T04:04:39.154Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8ibwt69"
+  },
+  {
+    "id": "moi3r4dbu9kgs",
+    "createdAt": "2026-04-28T04:04:41.567Z",
+    "type": "follow_up",
+    "content": "Day 1 automated follow-up sent via email.",
+    "leadId": "mogo9u8ibwt69"
+  },
+  {
+    "id": "mojiurv0jb99w",
+    "createdAt": "2026-04-29T03:55:12.396Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mojius4fs4izf",
+    "createdAt": "2026-04-29T03:55:12.735Z",
+    "type": "follow_up",
+    "content": "Day 7 automated follow-up sent via email.",
+    "leadId": "mo74z690kufgy"
+  },
+  {
+    "id": "mojiuux99pt5g",
+    "createdAt": "2026-04-29T03:55:16.365Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  },
+  {
+    "id": "mojiuva08lasq",
+    "createdAt": "2026-04-29T03:55:16.824Z",
+    "type": "follow_up",
+    "content": "Day 3 automated follow-up sent via email.",
+    "leadId": "mo12netnfeyds"
+  }
+]
