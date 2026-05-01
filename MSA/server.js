@@ -77,16 +77,29 @@ if (fs.existsSync(FRONTEND_DIST)) {
   });
 } else {
   app.get('/', (req, res) => {
+    const frontendPath = path.join(__dirname, 'frontend');
+    let frontendContents = [];
+    try {
+      if (fs.existsSync(frontendPath)) {
+        frontendContents = fs.readdirSync(frontendPath);
+      }
+    } catch (e) {
+      frontendContents = [`Error reading dir: ${e.message}`];
+    }
+
     res.json({ 
       message: 'MSA API running. Frontend not built yet — run npm run build.',
       debug: {
         cwd: process.cwd(),
         __dirname,
-        checkedPaths: possiblePaths
+        checkedPaths: possiblePaths,
+        frontendFolderExists: fs.existsSync(frontendPath),
+        frontendContents
       }
     });
   });
 }
+
 
 
 app.listen(PORT, '0.0.0.0', () => {
