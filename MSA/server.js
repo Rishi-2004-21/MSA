@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
+const fs = require('fs');
 const routes = require('./src/routes');
 const { startFollowUpScheduler } = require('./src/services/followUpScheduler');
 
@@ -10,20 +11,43 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+// ── CORS ──────────────────────────────────────────────────────────────────────
+// Allow the deployed frontend URL + localhost for dev
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5000',
+  process.env.APP_URL,       // e.g. https://msa-xxxxx.onrender.com
+  process.env.RENDER_URL,    // optional extra Render URL
+].filter(Boolean);
+
+app.use(cors({
+  origin: (origin, callback) => {
+    // Allow requests with no origin (curl, Postman, server-side)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    // In production allow same-origin (Render serves frontend + API together)
+    return callback(null, true); // permissive — tighten after go-live
+  },
+  credentials: true,
+}));
+
 app.use(express.json({ limit: '20mb' }));
 app.use(express.urlencoded({ extended: true }));
 
-// Serve uploaded files
+// ── Ensure data directory exists (Render ephemeral disk) ─────────────────────
+const DATA_DIR = path.join(__dirname, 'data');
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  console.log('[Boot] Created data/ directory.');
+}
+
+// ── Serve uploaded files ──────────────────────────────────────────────────────
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Serve frontend build files
-app.use(express.static(path.join(__dirname, 'frontend/dist')));
-
-// API Routes
+// ── API Routes (MUST come before static/SPA fallback) ────────────────────────
 app.use('/api', routes);
 
-// Health Check API
+// ── Health Check ──────────────────────────────────────────────────────────────
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
@@ -31,17 +55,29 @@ app.get('/api/health', (req, res) => {
     version: '1.0.0',
     timestamp: new Date().toISOString(),
     ai: process.env.OPENAI_API_KEY ? 'enabled' : 'mock-mode',
+    node: process.version,
   });
 });
 
-// Serve React frontend for all other routes (SPA fallback)
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
-});
+// ── Serve React Frontend build (production) ───────────────────────────────────
+const FRONTEND_DIST = path.join(__dirname, 'frontend', 'dist');
+if (fs.existsSync(FRONTEND_DIST)) {
+  app.use(express.static(FRONTEND_DIST));
+  // SPA fallback — catches all non-API routes
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(FRONTEND_DIST, 'index.html'));
+  });
+} else {
+  app.get('/', (req, res) => {
+    res.json({ message: 'MSA API running. Frontend not built yet — run npm run build.' });
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`🚀 MSA Agent running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 MSA Agent running on port ${PORT}`);
   console.log(`   AI: ${process.env.OPENAI_API_KEY ? '✅ GPT-4o Enabled' : '⚠️  Mock Mode (no OPENAI_API_KEY)'}`);
   console.log(`   Email: ${process.env.SMTP_HOST ? `✅ ${process.env.SMTP_HOST}` : '⚠️  Mock Mode'}`);
+  console.log(`   Frontend: ${fs.existsSync(FRONTEND_DIST) ? '✅ Served' : '⚠️  Not built'}`);
   startFollowUpScheduler();
 });
+

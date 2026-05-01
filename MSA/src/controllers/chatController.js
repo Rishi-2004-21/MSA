@@ -105,7 +105,7 @@ async function sendWhatsAppMessage(to, text) {
     }
 
     try {
-        const fetch = require('node-fetch');
+        // Node 18+ has native fetch — no need for node-fetch package
         const url = `https://api.twilio.com/2010-04-01/Accounts/${accountSid}/Messages.json`;
         const response = await fetch(url, {
             method: 'POST',

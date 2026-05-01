@@ -1,4 +1,8 @@
-const BASE = 'http://localhost:5000/api';
+// In production (Render), the frontend is served by the same Express server,
+// so we use relative URLs. In local dev, we point to localhost:5000.
+const BASE = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL}/api`
+  : (import.meta.env.DEV ? 'http://localhost:5000/api' : '/api');
 
 async function req(method, path, body) {
     const opts = { method, headers: { 'Content-Type': 'application/json' } };
