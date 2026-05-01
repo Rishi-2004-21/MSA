@@ -4,8 +4,7 @@
   "description": "Multi-Agent Sales Automation Root",
   "main": "MSA/server.js",
   "scripts": {
-    "install-all": "npm install && npm install --prefix MSA/frontend",
-    "build": "npm run install-all && npm run build --prefix MSA/frontend",
+    "build": "npm install && npm install --prefix MSA/frontend && npm run build --prefix MSA/frontend",
     "start": "node MSA/server.js"
   },
   "dependencies": {

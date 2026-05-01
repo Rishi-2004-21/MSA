@@ -60,18 +60,34 @@ app.get('/api/health', (req, res) => {
 });
 
 // ── Serve React Frontend build (production) ───────────────────────────────────
-const FRONTEND_DIST = path.join(__dirname, 'frontend', 'dist');
+const possiblePaths = [
+  path.join(__dirname, 'frontend', 'dist'),
+  path.join(__dirname, '..', 'frontend', 'dist'),
+  path.join(__dirname, 'dist'),
+  path.join(process.cwd(), 'MSA', 'frontend', 'dist'),
+];
+
+let FRONTEND_DIST = possiblePaths.find(p => fs.existsSync(p)) || possiblePaths[0];
+
 if (fs.existsSync(FRONTEND_DIST)) {
+  console.log(`[Boot] Serving frontend from: ${FRONTEND_DIST}`);
   app.use(express.static(FRONTEND_DIST));
-  // SPA fallback — catches all non-API routes
   app.get('*', (req, res) => {
     res.sendFile(path.join(FRONTEND_DIST, 'index.html'));
   });
 } else {
   app.get('/', (req, res) => {
-    res.json({ message: 'MSA API running. Frontend not built yet — run npm run build.' });
+    res.json({ 
+      message: 'MSA API running. Frontend not built yet — run npm run build.',
+      debug: {
+        cwd: process.cwd(),
+        __dirname,
+        checkedPaths: possiblePaths
+      }
+    });
   });
 }
+
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 MSA Agent running on port ${PORT}`);
