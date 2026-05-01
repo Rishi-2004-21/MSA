@@ -6,31 +6,52 @@ services:
     buildCommand: npm install && npm run build
     startCommand: node server.js
     envVars:
+      # ── Runtime ──────────────────────────────────────────────────────────────
       - key: NODE_ENV
         value: production
       - key: PORT
         value: 10000
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: SMTP_HOST
-        sync: false
-      - key: SMTP_PORT
-        sync: false
-      - key: SMTP_SECURE
-        sync: false
-      - key: SMTP_USER
-        sync: false
-      - key: SMTP_PASS
-        sync: false
-      - key: FROM_EMAIL
-        sync: false
-      - key: FROM_NAME
-        sync: false
-      - key: OWNER_EMAIL
-        sync: false
+
+      # ── App URLs (update APP_URL after first deploy with your Render URL) ────
       - key: APP_URL
-        sync: false
+        value: https://msa-agent.onrender.com
+      - key: API_URL
+        value: https://msa-agent.onrender.com
+
+      # ── SMTP / Email ─────────────────────────────────────────────────────────
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_SECURE
+        value: "false"
+      - key: FROM_NAME
+        value: Ushnik Technologies
+      - key: FROM_EMAIL
+        value: kolanusnehareddie@gmail.com
+      - key: OWNER_EMAIL
+        value: kolanusnehareddie@gmail.com
+      - key: SMTP_USER
+        value: kolanusnehareddie@gmail.com
+
+      # ── SECRETS: Set these manually in Render Dashboard → Environment ─────────
+      - key: OPENAI_API_KEY
+        sync: false          # Set in Render dashboard
+      - key: SMTP_PASS
+        sync: false          # Set in Render dashboard — Gmail App Password
+
+      # ── WhatsApp ──────────────────────────────────────────────────────────────
       - key: WHATSAPP_NUMBER
-        sync: false
+        value: "+91-6304757347"
+      - key: TWILIO_WHATSAPP_FROM
+        value: "whatsapp:+14155238886"
+      - key: VITE_WHATSAPP
+        value: "+91-6304757347"
+      - key: TWILIO_ACCOUNT_SID
+        sync: false          # Set in Render dashboard
+      - key: TWILIO_AUTH_TOKEN
+        sync: false          # Set in Render dashboard
+
+      # ── Calendly ──────────────────────────────────────────────────────────────
       - key: CALENDLY_URL
-        sync: false
+        value: https://calendly.com/rishienjamuri/30min
