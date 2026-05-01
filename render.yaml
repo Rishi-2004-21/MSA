@@ -2,7 +2,9 @@ services:
   - type: web
     name: msa-agent
     runtime: node
-    buildCommand: npm run build
+    plan: free
+    rootDirectory: MSA
+    buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
       - key: NODE_ENV
@@ -12,24 +14,30 @@ services:
       - key: OPENAI_API_KEY
         sync: false
       - key: SMTP_HOST
-        value: smtp.gmail.com
+        sync: false
       - key: SMTP_PORT
-        value: "587"
+        sync: false
       - key: SMTP_SECURE
         value: "false"
       - key: SMTP_USER
-        value: kolanusnehareddie@gmail.com
+        sync: false
       - key: SMTP_PASS
         sync: false
       - key: FROM_EMAIL
-        value: kolanusnehareddie@gmail.com
+        sync: false
       - key: FROM_NAME
         value: Ushnik Technologies
       - key: OWNER_EMAIL
-        value: kolanusnehareddie@gmail.com
+        sync: false
       - key: APP_URL
         sync: false
       - key: WHATSAPP_NUMBER
-        value: "+91-6304757347"
+        sync: false
       - key: CALENDLY_URL
-        value: https://calendly.com/rishienjamuri/30min
+        sync: false
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_WHATSAPP_FROM
+        sync: false

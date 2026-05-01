@@ -38,8 +38,20 @@ async function processOneLead(rawData) {
         lead = existing;
         interactions.create({ leadId: lead.id, type: 'note', content: `Duplicate lead inquiry from ${rawData.source || 'excel'}. Re-triggering welcome email.` });
     } else {
-        // AI Qualification
-        const aiResult = await qualifyLead({ ...rawData, message: rawData.message || rawData.requirement });
+        // AI Qualification (Fallback to basic scoring if no API key)
+        let aiResult = { qualification: 'Warm', score: 50, requirement: rawData.requirement || 'Other' };
+        if (process.env.OPENAI_API_KEY) {
+            try {
+                aiResult = await qualifyLead({ ...rawData, message: rawData.message || rawData.requirement });
+            } catch (e) {
+                console.error('[AI] Qualification failed, using fallback:', e.message);
+            }
+        } else {
+            // Basic heuristic if no AI
+            aiResult.score = computeScore(rawData);
+            aiResult.qualification = aiResult.score > 70 ? 'Hot' : (aiResult.score > 30 ? 'Warm' : 'Cold');
+        }
+
         const assignedTeam = routeToTeam(aiResult);
 
         // Compute next follow-up (Day 1)
@@ -66,6 +78,7 @@ async function processOneLead(rawData) {
             followUpStage: 0,
             rawLeadData: rawData.rawLeadData || JSON.stringify(rawData),
         });
+
 
         // Hot lead alert
         if (lead.qualification === 'Hot') {

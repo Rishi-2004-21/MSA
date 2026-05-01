@@ -13,6 +13,17 @@ exports.chat = async (req, res) => {
         const { sessionId, message, source } = req.body;
         if (!sessionId || !message) return res.status(400).json({ error: 'sessionId and message required.' });
 
+        if (!process.env.OPENAI_API_KEY) {
+            return res.json({
+                success: true,
+                responses: [{
+                    agent: { name: 'MSA System', emoji: '🤖' },
+                    text: "I am currently in **Offline Mode** because no OpenAI API Key was found. Please add your key to the `.env` file to enable my full AI capabilities! \n\nHowever, I can still see your data and help you navigate the dashboard."
+                }],
+                stage: 'info'
+            });
+        }
+
         const result = await processMessage(sessionId, message, { source: source || 'web', channel: 'web' });
         res.json({ success: true, ...result });
     } catch (err) {
@@ -20,6 +31,7 @@ exports.chat = async (req, res) => {
         res.status(500).json({ error: err.message });
     }
 };
+
 
 // ── GET /api/chat/session/:sessionId ─────────────────────────────────────────
 exports.getSession = (req, res) => {

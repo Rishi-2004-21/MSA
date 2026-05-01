@@ -12,24 +12,31 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ── CORS ──────────────────────────────────────────────────────────────────────
-// Allow the deployed frontend URL + localhost for dev
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5000',
-  process.env.APP_URL,       // e.g. https://msa-xxxxx.onrender.com
-  process.env.RENDER_URL,    // optional extra Render URL
+  'http://127.0.0.1:5173',
+  process.env.APP_URL,
+  process.env.API_URL,
 ].filter(Boolean);
 
 app.use(cors({
-  origin: (origin, callback) => {
-    // Allow requests with no origin (curl, Postman, server-side)
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps or curl)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) return callback(null, true);
-    // In production allow same-origin (Render serves frontend + API together)
-    return callback(null, true); // permissive — tighten after go-live
+    
+    if (allowedOrigins.indexOf(origin) !== -1 || process.env.NODE_ENV === 'development') {
+      callback(null, true);
+    } else {
+      console.log('CORS Blocked for origin:', origin);
+      callback(new Error('Not allowed by CORS'));
+    }
   },
   credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 
 app.use(express.json({ limit: '20mb' }));
 app.use(express.urlencoded({ extended: true }));
@@ -72,10 +79,12 @@ let FRONTEND_DIST = possiblePaths.find(p => fs.existsSync(p)) || possiblePaths[0
 if (fs.existsSync(FRONTEND_DIST)) {
   console.log(`[Boot] Serving frontend from: ${FRONTEND_DIST}`);
   app.use(express.static(FRONTEND_DIST));
-  app.get('*', (req, res) => {
+  // SPA fallback — updated for Express 5 compatibility
+  app.get('/*', (req, res) => {
     res.sendFile(path.join(FRONTEND_DIST, 'index.html'));
   });
 } else {
+
   app.get('/', (req, res) => {
     const frontendPath = path.join(__dirname, 'frontend');
     let frontendContents = [];
