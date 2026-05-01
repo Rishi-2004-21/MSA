@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: msa-app
+    name: msa-agent
     runtime: node
     rootDir: MSA
-    buildCommand: npm install && cd frontend && npm install && npm run build
+    buildCommand: npm install && npm run build
     startCommand: node server.js
     envVars:
       - key: NODE_ENV
@@ -11,12 +11,26 @@ services:
       - key: PORT
         value: 10000
       - key: OPENAI_API_KEY
-        scope: all
+        sync: false
       - key: SMTP_HOST
-        scope: all
+        sync: false
       - key: SMTP_PORT
-        scope: all
+        sync: false
+      - key: SMTP_SECURE
+        sync: false
       - key: SMTP_USER
-        scope: all
-      - key: SMTP_PASSWORD
-        scope: all
+        sync: false
+      - key: SMTP_PASS
+        sync: false
+      - key: FROM_EMAIL
+        sync: false
+      - key: FROM_NAME
+        sync: false
+      - key: OWNER_EMAIL
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: WHATSAPP_NUMBER
+        sync: false
+      - key: CALENDLY_URL
+        sync: false

@@ -4,12 +4,12 @@
   "description": "Multi-Agent Sales Automation",
   "main": "MSA/server.js",
   "scripts": {
-    "build": "cd MSA && npm install && cd frontend && npm install && npm run build && cd ../..",
-    "start": "cd MSA && node server.js",
-    "dev": "cd MSA && npm run dev"
+    "build": "npm install --prefix MSA && npm run build --prefix MSA",
+    "start": "node MSA/server.js",
+    "dev": "npm run dev --prefix MSA"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.0.0"
   },
   "keywords": [],
   "author": "",
