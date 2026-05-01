@@ -1,17 +1,25 @@
 {
-  "name": "msa-render",
+  "name": "msa-root",
   "version": "1.0.0",
-  "description": "Multi-Agent Sales Automation",
+  "description": "Multi-Agent Sales Automation Root",
   "main": "MSA/server.js",
   "scripts": {
-    "build": "npm install --prefix MSA && npm run build --prefix MSA",
-    "start": "node MSA/server.js",
-    "dev": "npm run dev --prefix MSA"
+    "install-all": "npm install && npm install --prefix MSA/frontend",
+    "build": "npm run install-all && npm run build --prefix MSA/frontend",
+    "start": "node MSA/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "nodemailer": "^8.0.5",
+    "openai": "^6.34.0",
+    "multer": "^2.1.1",
+    "xlsx": "^0.18.5",
+    "concurrently": "^9.2.1",
+    "marked": "^18.0.2"
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
